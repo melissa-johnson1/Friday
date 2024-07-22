@@ -1,1 +1,23 @@
-
+<!DOCTYPE html>
+<html lang ="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name "viewport" content="width=divice-width", initial-scale=1.0">
+    <title>WDD Demo</title>
+    
+    
+  </head>
+<body>
+  <div class = "container">
+    <h1 id="answer">Hello WDD!</h1>
+  </div>
+  <script>
+    let today = new Date().getDay();
+    const h1 = document.querySelector("#answer");
+    if(today == 5){
+      h1.textContent = "Yes!";
+        } else{
+      h1.textContent = "NO! :(";
+    }
+  </script>
+</body>
